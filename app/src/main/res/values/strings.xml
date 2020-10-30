@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">GREEN MEDICINE</string>
+    <string name="title_activity_signin">SigninActivity</string>
+</resources>

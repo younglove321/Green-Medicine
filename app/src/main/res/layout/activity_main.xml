@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ffdd99"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:height="0px"
+        android:padding="10dp"
+        android:layout_weight="3">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="My Mileage"
+            android:id="@+id/tv_mileage"
+            android:background="@drawable/edge"
+            android:height="0px"
+            android:layout_weight="2"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="마일리지 적립 내역"
+            android:id="@+id/mileageBtn"
+            android:textStyle=""
+            android:height="0px"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:height="0px"
+        android:padding="10dp"
+        android:layout_weight="2">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="mapBtn"
+            android:id="@+id/mapBtn"
+            android:width="0px"
+            android:layout_weight="1"
+            android:paddingRight="5dp"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="QR Scan"
+            android:id="@+id/scanQRBtn"
+            android:width="0px"
+            android:layout_weight="1"
+            android:paddingLeft="5dp"/>
+
+    </LinearLayout>
+
+</LinearLayout>
